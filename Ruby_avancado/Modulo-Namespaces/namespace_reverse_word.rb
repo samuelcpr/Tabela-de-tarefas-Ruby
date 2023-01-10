@@ -1,6 +1,8 @@
+# Descreve a string de tras para frente
+
 module ReverseWorld
     def self.puts(text)
-        kernel::puts text.reverse.to_s
+        Kernel::puts text.reverse.to_s
     end
 end
 
